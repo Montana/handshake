@@ -139,7 +139,3 @@ echo "12345678" | gaiacli --home chain-2/n0/gaiacli tx ibc channel open-confirm 
 echo "" && echo "### query channel ..." && echo ""
 gaiacli --home chain-1/n0/gaiacli q ibc channel end portchainone channelchainone
 gaiacli --home chain-2/n0/gaiacli q ibc channel end portchaintwo channelchaintwo
-
-}
-
-}
